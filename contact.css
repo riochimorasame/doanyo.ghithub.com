@@ -1,0 +1,558 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 0;
+    margin: 1rem 0;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.service, .project, .gallery-item {
+    margin-bottom: 1rem;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+}
+
+
+
+
+
+.container2 {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+    width: 100%;
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {
+    background-color: #717171;
+}
+
+
+
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #555;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* pour le slide de l'entete*/
+
+/*
+.slideshow-container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+*/
+
+
+/* Applique la boîte de dimensionnement à tous les éléments */
+* {box-sizing: border-box;}
+
+
+
+/* Conteneur du diaporama */
+.slideshow-container {
+  position: relative; /* Positionnement relatif pour les éléments enfants */
+  width: 25%; /* Prend toute la largeur de l'écran */
+  max-width: 25%; /* Limite la largeur maximale à 100% */
+  margin: auto; /* Centre le conteneur horizontalement */
+}
+
+/* Style pour chaque diapositive */
+.mySlides {
+  display: none; /* Cache les diapositives par défaut */
+}
+
+/* Style pour les images */
+img {
+  vertical-align: middle; /* Aligne verticalement les images au milieu */
+  width: 25%; /* Les images prennent toute la largeur du conteneur */
+  height: auto; /* Maintient le ratio de l'image */
+}
+
+/* Animation de fondu pour les diapositives */
+.fade {
+  animation-name: fade; /* Nom de l'animation */
+  animation-duration: 1s; /* Durée de l'animation */
+}
+
+/* Définition des étapes de l'animation de fondu */
+@keyframes fade {
+  from {opacity: .4} /* Opacité initiale */
+  to {opacity: 1} /* Opacité finale */
+}
+
+/* Style pour le texte sur les diapositives */
+.text {
+  color: #f2f2f2; /* Couleur du texte */
+  font-size: 15px; /* Taille de la police */
+  padding: 8px 12px; /* Espacement intérieur */
+  position: absolute; /* Positionnement absolu */
+  bottom: 8px; /* Positionné en bas */
+  width: 100%; /* Prend toute la largeur de la diapositive */
+  text-align: center; /* Centre le texte */
+}
+
+/* Style pour les points de navigation */
+.dot {
+  height: 15px; /* Hauteur des points */
+  width: 15px; /* Largeur des points */
+  margin: 0 2px; /* Espacement entre les points */
+  background-color: #bbb; /* Couleur de fond par défaut */
+  border-radius: 50%; /* Forme ronde */
+  display: inline-block; /* Affichage en ligne */
+  transition: background-color 0.6s ease; /* Transition de la couleur de fond */
+}
+
+/* Style pour le point actif */
+.active {
+  background-color: #717171; /* Couleur de fond pour le point actif */
+}
+
+/*new*/
+
+
+
+/*parametre du logo */
+.logo a{
+    color: #fff;
+    padding: 0px 20px;
+    border:1px solid #fff ;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow:rgba(0, 0, b0, 0,7)  ;
+    }
+/* logo couleur du spam */
+.logo span{
+   color: rgb(238,56,11);
+   font-weight:bold ;
+   font-size: 2rem; /*la tille du Y */
+}
+
+
+
+
+ul li a{
+    text-decoration: non;/*plus de style souligner */
+    float: black;
+    padding: 10px 20px ;/*espacer le menue */
+    text-transform:uppercase ;/*les diférent élémenet sont en magiscule */
+    border:1px solid transparent ;
+    margin: 10px; /*s'éparer le menu*/
+ font-weight: 500;
+    transition:0.6s ease;
+
+}
+ul li a :hover{
+    background: #fff; /*les élément du ménu s'affiche a la couleure donner*/
+    color: black;
+}
+ul li.active.a{
+    background: #fff;
+    color: #000;
+}
+.principele{max-width:  width 114rem; 
+ margin: 0 auto;   
+}
+
+
+.milieux{
+position: absolute;
+top:  50%;
+left: 50%;
+transform: translate(-50%, -50%) ;
+}
+
+.milieux h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.bouton{
+    position: absolute;
+    top:  60%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;   
+}
+.bouton a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+}
+
+.Number{
+    position: absolute;
+    top:  70%;
+    left: 53%;
+    transform: translate(-50%, -50%) ;   
+}
+.Number a{
+    color: gold;
+    font-size: 70px;
+}
+
+.pnt{
+ transition:0.6s ease;  
+}
+.btn:hover{
+ background-color: #fff;   
+ color: #000;
+}
+.tech{
+    height: 400px;
+    padding: 150px;
+}
+.all{
+    background-image: url(/ok/image2/slide\ 4.jfif);
+    height: 100vh; 
+    background-size: cover; 
+    background-position:center ;
+    background-attachment: fixed;
+   }
+.domaine{
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    }
+   .t1{
+   color: blue;
+   text-align: center;
+   }
+   .card-list .card-item{
+    color: gold;
+    width: 400px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(30px);
+    justify-content: center;
+    border: 1px solid rgba(225, 225, 225, 0.2);
+   }
+   .card-list .card-item .user-image2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 400px;
+    border: 3px solide gold;
+
+   }
+   .card-list .card-item .user-image2{
+    font-size: 1.25rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+   }
+   .card-list .card-item .message button{
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2 ease;
+
+   }
+   .card-list .card-item .message button:hover{
+    background: rgb( 255,255, 255 0.1 );
+    border: 1px solid #fff;
+    color: #fff;
+   }
+   .t2{
+    color: blue;
+    text-align: center;
+    }
+  .d{
+    float: left;
+    width: 31%;
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(165, 165,165);
+
+  }
+  .d:hover{
+    background-color: #fff;
+  }
+  h2{
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  .t3{
+    color: blue;
+    text-align: center;
+    }
+    .btn1{
+     background-color: yellow;  
+     border-left:350px;
+     padding: 5px;
+     margin-left: 135px;
+    }
+    .form1{
+     float: left;
+     width: 30%;
+    }
+    .t3{
+        color: blue;
+        text-align: center;
+        }
+    /* video link  https://www.youtube.com/watch?v=F09HGJwN_7k&list=PLNZOdJU1xpb3GRo-4TvSO9hf3krMFoxEc&index=6*/
